@@ -80,6 +80,19 @@
     align-items: center;
 }
 
+.hover-button:hover{
+    background-color: white !important;
+    border: 3px solid #0087db !important;
+}
+
+.hover-button:hover span{
+    color: #0087db !important;
+}
+
+.hover-button:hover img{
+    content: url(./images/arrow_forward_ios_24dp_0087DB_FILL0_wght400_GRAD0_opsz24.svg);
+}
+
 .fourth-div{
     width: 80%;
     display: flex;
@@ -122,6 +135,15 @@
 
 .fifth-div img{
     width: 100%;
+}
+
+.hov-button:hover span{
+    color: white !important;
+    transition: 0.3s all;
+}
+
+.hov-button:hover img{
+    content: url(./images/arrow_forward_ios_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg);
 }
 
 .sixth-div img{
@@ -228,8 +250,8 @@ input{
     }
 
     .second-blue{
-        /* flex-wrap: wrap; */
-        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
     }
 
     .next{
